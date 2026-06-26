@@ -135,8 +135,6 @@ The diabetic class has:
 
 This means the model successfully identifies many diabetic patients, but it also produces a number of false positive predictions.
 
-Overall, the model demonstrates reasonable performance for a baseline classification model and provides a solid starting point for diabetes prediction.
-
 ---
 
 ## 5. Possible Improvements
@@ -151,7 +149,7 @@ Several improvements could increase the model's performance:
 
 ## 6. Practical Use, Limitations, and Reflection
 
-This model could be used as a clinical decision support tool to assist healthcare professionals by identifying patients who may have a higher risk of diabetes. However, the model should **not** be used as a replacement for professional medical diagnosis. Medical decisions require additional information such as laboratory tests, patient history, physical examination, and clinical judgment.
+This model could be used as a clinical decision support tool to assist healthcare professionals by identifying patients who may have a higher risk of diabetes. However, the model should not be used as a replacement for professional medical diagnosis
 
 The dataset also has several limitations. It represents a specific population (Pima Indian women), so the model may not perform equally well for people from different populations or demographic groups.
 
