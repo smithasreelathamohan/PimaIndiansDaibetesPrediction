@@ -103,26 +103,26 @@ This means that the model correctly classified approximately **72%** of the pati
 
 ### Confusion Matrix
 
-[[90 34] 
-[20 47]]
+[[107 17] 
+[8 59]]
 
-* 90 non-diabetic patients were correctly identified.
-* 47 diabetic patients were correctly identified.
-* 34 non-diabetic patients were incorrectly classified as diabetic.
-* 20 diabetic patients were incorrectly classified as non-diabetic.
+* 107 non-diabetic patients were correctly identified.
+* 59 diabetic patients were correctly identified.
+* 17 non-diabetic patients were incorrectly classified as diabetic.
+* 8 diabetic patients were incorrectly classified as non-diabetic.
 
 ### Classification Report
 
 | Class        | Precision | Recall | F1-score |
 | ------------ | --------: | -----: | -------: |
-| Non-Diabetic |      0.82 |   0.73 |     0.77 |
-| Diabetic     |      0.58 |   0.70 |     0.64 |
+| Non-Diabetic |      0.93 |   0.86 |     0.90 |
+| Diabetic     |      0.78 |   0.88 |     0.83 |
 
 Overall results:
 
-* Accuracy: **0.72**
-* Macro Average F1-score: **0.70**
-* Weighted Average F1-score: **0.72**
+* Accuracy: **0.87**
+* Macro Average F1-score: **0.85**
+* Weighted Average F1-score: **0.87**
 
 ### Analysis
 
@@ -153,4 +153,4 @@ This model could be used as a clinical decision support tool to assist healthcar
 
 The dataset also has several limitations. It represents a specific population (Pima Indian women), so the model may not perform equally well for people from different populations or demographic groups.
 
-Overall, this project demonstrates how machine learning can be applied to healthcare data to support disease prediction. While the current model achieves approximately **72% accuracy**, further improvements in data preprocessing, feature engineering, and model selection could increase its predictive performance.
+Overall, this project demonstrates how machine learning can be applied to healthcare data to support disease prediction. While the current model achieves approximately **86% accuracy**, further improvements in data preprocessing, feature engineering, and model selection could increase its predictive performance.

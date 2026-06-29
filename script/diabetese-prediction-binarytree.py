@@ -64,7 +64,7 @@ print("---------------------------")
 print(df.isna().sum())
 
 
-print("\nRows with 0 in more than 2 column")
+print("\nRows with 0 in more than 3 column")
 print("----------------------------------")
 zero_as_missing_cols = ["Glucose", "BloodPressure", "SkinThickness", "Insulin", "BMI"]
     
@@ -192,8 +192,8 @@ feature_columns = [
 
 target_column = "Outcome"
 
-X = df[feature_columns]  # X usually means the input columns in machine learning examples
-y = df[target_column]  # y usually means the value we want to predict
+X = df_clean[feature_columns]  # X usually means the input columns in machine learning examples
+y = df_clean[target_column]  # y usually means the value we want to predict
 
 X_train, X_test, y_train, y_test = train_test_split(
     X,

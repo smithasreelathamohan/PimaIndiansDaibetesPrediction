@@ -1,22 +1,19 @@
-|--- Glucose <= 154.50
-|   |--- BMI <= 27.35
-|   |   |--- Glucose <= 151.50
+|--- Insulin <= 112.00
+|   |--- BMI <= 50.00
+|   |   |--- Insulin <= 98.00
 |   |   |   |--- class: 0
-|   |   |--- Glucose >  151.50
-|   |   |   |--- class: 1
-|   |--- BMI >  27.35
-|   |   |--- Age <= 30.50
+|   |   |--- Insulin >  98.00
 |   |   |   |--- class: 0
-|   |   |--- Age >  30.50
-|   |   |   |--- class: 1
-|--- Glucose >  154.50
-|   |--- BMI <= 29.85
-|   |   |--- Age <= 25.50
+|   |--- BMI >  50.00
+|   |   |--- class: 1
+|--- Insulin >  112.00
+|   |--- Age <= 28.50
+|   |   |--- SkinThickness <= 31.50
 |   |   |   |--- class: 0
-|   |   |--- Age >  25.50
+|   |   |--- SkinThickness >  31.50
 |   |   |   |--- class: 1
-|   |--- BMI >  29.85
-|   |   |--- Insulin <= 544.00
+|   |--- Age >  28.50
+|   |   |--- Insulin <= 187.50
 |   |   |   |--- class: 1
-|   |   |--- Insulin >  544.00
-|   |   |   |--- class: 0
+|   |   |--- Insulin >  187.50
+|   |   |   |--- class: 1
